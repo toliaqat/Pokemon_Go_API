@@ -17,7 +17,7 @@ Pokémon GO API in Python
 
 1. Download or clone the repository.
 1. Using a terminal navigate into the clone repository.
-1. Install all requirements for the project using `pip install -r ./requirements.text`
+1. Install all requirements for the project using `pip install -r ./requirements.txt`
 
 ## Step Three: Run Pokemon_Go_API
 
