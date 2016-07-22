@@ -55,7 +55,10 @@ python ./main.py -t ptc -u yourusername -p yourpassword123 -l "123 Some Address 
 
 i no longer have time for this project, once i have the hype is over and nobody needs this files, do your best .. files are old backups that are working but in need of many bug fixes. should be only touched by users who know how to fix UGLY, sometimes it works ... sometimes its not :)
 
-~~if you want the final version that is stable and has all features ^ please contact pokemon [at] mila432.xyz~~ i will publish a website soon where you can test this bot 
+i will publish a website soon where you can test this bot 
+
+# Donation:
+126VcCQDCqzVsaA84QRxqa2LbLQm4Fgs4s Bitcoin
 
 # Preview:
 
