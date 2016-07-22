@@ -36,6 +36,11 @@ To run the project using  Pokemon Trainer Club login:
 python ./main.py -t ptc -u yourusername -p yourpassword123 -l "123 Some Address Some City, STATE ZIP"
 ```
 
+### Authentication Note
+
+If you're authenticating with Google and have 2 factor authentication enabled for you account, you should
+create an [application specific password](https://support.google.com/accounts/answer/185833?hl=en).
+
 
 # To-Do:
 - [x] Eat moro Protobuf..
