@@ -1,6 +1,9 @@
 # Pokemon_Go_API
 Pokémon GO API in Python
 
+# IMPORTANT!
+Fixed some code? Improved a function? Cleaned the mess? Other fixes? Sumbit a pull-request!
+
 # Some Info:
 1. GitHub issues are mainly for bug reporting.  
 2. One goal of the project is to understand the API and to give other developers a starting point.   
@@ -43,7 +46,7 @@ python ./main.py -t ptc -u yourusername -p yourpassword123 -l "123 Some Address 
 - [x] Human walking logic
 - [x] Catch Pokemon automatically
 - [x] Drop items when bag is full
-- [x] Scan your inventar for XYZ CP pokemon and release them
+- [x] Scan your inventory for XYZ CP pokemon and release them
 - [x] Pokemon catch filter
 - [x] Hatch eggs
 - [ ] Incubate eggs
@@ -73,23 +76,3 @@ i will publish a website soon where you can test this bot
 # Video of the Pokemon catcher v1.0:
 
 [![Alt text](http://img.youtube.com/vi/rtGyUPhrGY0/0.jpg)](http://www.youtube.com/watch?v=rtGyUPhrGY0 "Pokemon_Go_API Pokestop farmer")
-
-Features:
-- working with google & ptc login
-- fake location
-- set distance for farming
-- good logic to prevent bans
-- automatic catching pokemons
-- automatically farm pokestops 
-
-# Requirements:
-- python 2.7
-- requests
-- protobuf
-- geopy
-- s2sphere
-- gpsoauth (unix)
-
-# Credits:
-- Mila432
-- https://github.com/tejado for public proto
