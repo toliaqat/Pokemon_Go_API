@@ -19,8 +19,8 @@ Fixed some code? Improved a function? Cleaned the mess? Other fixes? Sumbit a pu
 ## Step Two: Install Pokemon_Go_API
 
 1. Download or clone the repository.
-1. Using a terminal navigate into the clone repository.
-1. Install all requirements for the project using `pip install -r ./requirements.txt`
+1. Using a terminal, navigate into the cloned repository.
+1. Install all requirements for the project using `pip install -r requirements.txt`
 
 ## Step Three: Run Pokemon_Go_API
 
