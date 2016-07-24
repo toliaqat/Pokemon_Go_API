@@ -131,7 +131,7 @@ def catch(maps,local_ses,new_rcp_point):
 						catch_status = pokemon_pb2.catch_status()
 						catch_status.ParseFromString(tmp_api)
 						if catch_status.sess[0].status:
-							print "[+] " + datetime.datetime.now().strftime("%H:%M:%S")+ " catched pok... %s"%(catch_status.sess[0].status,)
+							print "[+] " + datetime.datetime.now().strftime("%H:%M:%S")+ " caught pok... %s"%(catch_status.sess[0].status,)
 					else:
 						print '[-] catch data is none'
 					#exit()
