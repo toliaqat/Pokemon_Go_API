@@ -81,7 +81,7 @@ def work_with_stops(current_stop,ses,new_rcp_point):
 			elif st==2:
 				print "[!] charging"
 			elif st==1:
-				print "[!] teleport.."
+				print "[!] walking.."
 				time.sleep(14)
 				work_with_stops(current_stop,ses,new_rcp_point)
 			else:
