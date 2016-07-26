@@ -43,6 +43,7 @@ create an [application specific password](https://support.google.com/accounts/an
 
 
 # To-Do:
+- [ ] code clean up
 - [x] Eat moro Protobuf..
 - [x] Login as pokemon trainer + token
 - [x] Login over google + token
@@ -60,24 +61,3 @@ create an [application specific password](https://support.google.com/accounts/an
 - [x] Clean code
 - [x] Fully automate this script
 - [ ] Make v1.0 public!
-
-i no longer have time for this project, once i have the hype is over and nobody needs this files, do your best .. files are old backups that are working but in need of many bug fixes. should be only touched by users who know how to fix UGLY, sometimes it works ... sometimes its not :)
-
-i will publish a website soon where you can test this bot 
-
-# Donation:
-126VcCQDCqzVsaA84QRxqa2LbLQm4Fgs4s Bitcoin
-
-# Preview:
-
-![Alt text](etc/screen.png?raw=true "result screen")
-
-![Alt text](etc/bot.png?raw=true "result screen")
-
-# Video of the Pokestop farmer beta v1.0:
-
-[![Alt text](http://img.youtube.com/vi/i1UmYyntz8A/0.jpg)](http://www.youtube.com/watch?v=i1UmYyntz8A "Pokemon_Go_API Pokestop farmer")
-
-# Video of the Pokemon catcher v1.0:
-
-[![Alt text](http://img.youtube.com/vi/rtGyUPhrGY0/0.jpg)](http://www.youtube.com/watch?v=rtGyUPhrGY0 "Pokemon_Go_API Pokestop farmer")
