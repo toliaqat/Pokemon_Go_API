@@ -14,14 +14,14 @@ import login
 import public
 from getpass import getpass
 import public_proto_pb2
-try:
-	import pokemon_pb2
-	import logic
-	import dirty
-	import api
-	config.pub=False
-except:
-	config.pub=True
+#try:
+import pokemon_pb2
+import logic
+import dirty
+import api
+config.pub=False
+#except:
+#	config.pub=True
 
 def get_acces_token(usr,pws,type):
 	access_token=None
@@ -42,7 +42,7 @@ def get_acces_token(usr,pws,type):
 		access_token= login.login_pokemon(usr,pws)
 		ltype='ptc'
 	return access_token,ltype
-	
+
 def main():
 	if platform.system() == 'Windows':
 		os.system("title Pokemon GO API Python")
@@ -68,6 +68,7 @@ def main():
 			if config.debug:
 				print '[!] using:',config.pub
 			if config.pub:
+				print "[?] using public"
 				public.start_work(access_token,ltype,args.location)
 			else:
 				dirty.start_private_show(access_token,ltype,args.location)
@@ -75,7 +76,7 @@ def main():
 			print '[-] access_token bad'
 	else:
 		print '[!] used type "%s" only Google or PTC valid'%(args.type.lower())
-	
+
 if __name__ == '__main__':
 	sys.dont_write_bytecode = True
 	main()
