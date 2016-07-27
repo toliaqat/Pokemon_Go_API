@@ -69,20 +69,20 @@ def work_with_stops(current_stop,ses,new_rcp_point):
 		if tmp_api is not None:
 			map = pokemon_pb2.map()
 			map.ParseFromString(tmp_api)
-			st= map.sess[0].status
-			config.earned_xp+=map.sess[0].amt
-			if st==4:
-				print "[!] +%s (%s)"%(map.sess[0].amt,config.earned_xp)
-			elif st==3:
+			st = map.sess[0].status
+			config.earned_xp += map.sess[0].amt
+			if st == 4:
+				print "[!] +%s (%s)"%(map.sess[0].amt, config.earned_xp)
+			elif st == 3:
 				print "[!] used"
-			elif st==2:
+			elif st == 2:
 				print "[!] charging"
-			elif st==1:
+			elif st == 1:
 				print "[!] walking.."
 				time.sleep(14)
-				work_with_stops(current_stop,ses,new_rcp_point)
+				work_with_stops(current_stop, ses,new_rcp_point)
 			else:
-				print "[?]:",st
+				print "[?]:", st
 		else:
 			print '[-] tmp_api empty'
 	except:
