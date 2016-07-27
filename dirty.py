@@ -8,14 +8,11 @@ from multiprocessing import Process
 
 multi=False
 
-def start_private_show(access_token,ltype,loc):
+def start_private_show(local_ses, loc):
 	location.set_location(loc)
-	print '[+] Token:',access_token[:40]+'...'
-	prot1=logic.gen_first_data(access_token,ltype)
-	local_ses=api.get_rpc_server(access_token,prot1)
-	new_rcp_point='https://%s/rpc'%(local_ses.rpc_server,)
+	new_rcp_point = 'https://%s/rpc'%(local_ses.rpc_server,)
 	while(True):
-		work_stop(local_ses,new_rcp_point)
+		work_stop(local_ses, new_rcp_point)
 
 def walk_random():
 	COORDS_LATITUDE, COORDS_LONGITUDE, COORDS_ALTITUDE=location.get_location_coords()
